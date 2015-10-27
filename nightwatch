@@ -1,0 +1,5 @@
+/**
+ * Created by sakariruoho on 10/26/15.
+ */
+#!/usr/bin/env node
+require('nightwatch/bin/runner.js');
