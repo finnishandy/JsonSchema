@@ -34,3 +34,5 @@ Then run as follows:
 ```
 C:\workspace\project> node nightwatch.js
 ```
+
+Get on webdriver server: http://127.0.0.1:4444/wd/hub/status
