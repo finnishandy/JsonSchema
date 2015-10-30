@@ -23,7 +23,7 @@ module.exports = {
             .click('@submit')
             .assert.containsText('@searchBar', 'Night Watch');
 
-        client.end();
+        //client.end();
     }
 };
 
@@ -37,7 +37,7 @@ module.exports = {
             .click('button[name=btnG]')
             .pause(1000)
             .saveScreenshot('screenshot' + '/' + 'foo.png')
-            .assert.containsText('#main', 'Night Watch')
-            .end();
+            .assert.containsText('#main', 'Night Watch');
+            //.end();
     }
 };
