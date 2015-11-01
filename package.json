@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^0.8.6"
+    "nightwatch": "^0.8.6",
+    "selenium-webdriver": "^2.44.0"
   }
 }
